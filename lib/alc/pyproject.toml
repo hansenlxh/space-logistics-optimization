@@ -1,0 +1,42 @@
+[tool.poetry]
+name = "alcoord"
+version = "0.1.0"
+description = "A Python implementation of Augmented Lagrangian Coordination for decomposition-based and multidisciplinary design optimization"
+license = "MIT"
+readme = "README.md"
+authors = [
+  "misaji3 <masafumi.isaji@gatech.edu>",
+  "masaisaji <masafumiisaji@outlook.com>",
+]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.11.2, <4.0"
+numpy = "^1.24"
+scipy = "^1"
+pyomo = "^6.6"
+pandas = "^2.0"
+requests = "^2.31.0"
+icecream = "^2.1.3"
+
+pygmo = { version = "^2.19.5", optional = true }
+pygmo-plugins-nonfree = { version = "^0.24", optional = true }
+
+[tool.poetry.extras]
+legacy = ["pygmo", "pygmo-plugins-nonfree"]
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^6.2"
+pytest-pythonpath = "^0.7.4"
+
+[tool.pytest.ini_options]
+python_paths = ["alc"]
+testpaths = ["tests"]
+markers = ["legacy: tests that require pygmo legacy backend"]
+
+[tool.ruff]
+line-length = 88
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,465 @@
+Variable Name,Value,sc_des,sc_cp,sc_var,dep_node,arr_node,int_com,cnt_com,io,time,scnr
+int_com,4.0,1,2,,Earth,LEO,crew #,,out,0,0
+int_com,4.0,1,2,,Earth,LEO,crew #,,in,1,0
+int_com,4.0,1,2,,LEO,LLO,crew #,,out,1,0
+int_com,4.0,0,2,,LLO,LS,crew #,,out,4,0
+int_com,4.0,1,2,,LEO,LLO,crew #,,in,4,0
+int_com,4.0,0,0,,LLO,LS,crew #,,in,5,0
+int_com,4.0,0,2,,LS,LLO,crew #,,out,8,0
+int_com,4.0,0,2,,LLO,LEO,crew #,,out,9,0
+int_com,4.0,1,2,,LS,LLO,crew #,,in,9,0
+int_com,4.0,0,0,,LEO,Earth,crew #,,out,12,0
+int_com,4.0,1,1,,LLO,LEO,crew #,,in,12,0
+int_com,4.0,1,2,,LEO,Earth,crew #,,in,13,0
+int_com,4.0,0,2,,Earth,LEO,crew #,,out,365,0
+int_com,4.0,1,1,,Earth,LEO,crew #,,in,366,0
+int_com,4.0,1,1,,LEO,LLO,crew #,,out,366,0
+int_com,4.0,0,2,,LLO,LS,crew #,,out,369,0
+int_com,4.0,1,1,,LEO,LLO,crew #,,in,369,0
+int_com,4.0,1,1,,LLO,LS,crew #,,in,370,0
+int_com,4.0,0,2,,LS,LLO,crew #,,out,373,0
+int_com,4.0,0,2,,LLO,LEO,crew #,,out,374,0
+int_com,4.0,1,2,,LS,LLO,crew #,,in,374,0
+int_com,4.0,0,2,,LEO,Earth,crew #,,out,377,0
+int_com,4.0,0,2,,LLO,LEO,crew #,,in,377,0
+int_com,4.0,0,0,,LEO,Earth,crew #,,in,378,0
+cnt_com,170684.9058515119,0,0,,Earth,LEO,,hydrogen,out,0,0
+cnt_com,450.05999999999995,0,2,,Earth,LEO,,consumption,out,0,0
+cnt_com,3503.891232994054,1,0,,Earth,LEO,,habitat,out,0,0
+cnt_com,31033.619245729435,1,1,,Earth,LEO,,oxygen,out,0,0
+cnt_com,1852.607263659239,1,2,,Earth,LEO,,maintenance,out,0,0
+cnt_com,71.31584779231714,0,0,,LEO,LEO,,maintenance,out,1,0
+cnt_com,34.62,0,0,,LEO,LEO,,consumption,out,1,0
+cnt_com,170684.9058515119,0,1,,Earth,LEO,,hydrogen,in,1,0
+cnt_com,380.81999999999994,0,1,,LEO,LLO,,consumption,out,1,0
+cnt_com,1786.7730796538624,0,1,,LEO,LLO,,habitat,out,1,0
+cnt_com,2287.889981288198,0,1,,LEO,LLO,,oxygen,out,1,0
+cnt_com,12583.394897085089,0,1,,LEO,LLO,,hydrogen,out,1,0
+cnt_com,1050.4749263136707,0,2,,LEO,LLO,,maintenance,out,1,0
+cnt_com,1117.1181533401918,0,2,,LEO,LLO,,habitat,out,1,0
+cnt_com,2287.889981288198,0,2,,LEO,LLO,,oxygen,out,1,0
+cnt_com,12583.394897085089,0,2,,LEO,LLO,,hydrogen,out,1,0
+cnt_com,1211.5670229988882,1,0,,Earth,LEO,,maintenance,in,1,0
+cnt_com,89.7762488929003,1,0,,LEO,LLO,,maintenance,out,1,0
+cnt_com,8819.279761051013,1,0,,LEO,LLO,,oxygen,out,1,0
+cnt_com,48506.03868578057,1,0,,LEO,LLO,,hydrogen,out,1,0
+cnt_com,415.43999999999994,1,1,,Earth,LEO,,consumption,in,1,0
+cnt_com,3503.891232994054,1,1,,Earth,LEO,,habitat,in,1,0
+cnt_com,500.0,1,1,,LEO,LLO,,habitat,out,1,0
+cnt_com,8819.279761051013,1,1,,LEO,LLO,,oxygen,out,1,0
+cnt_com,48506.03868578057,1,1,,LEO,LLO,,hydrogen,out,1,0
+cnt_com,31033.619245729435,1,2,,Earth,LEO,,oxygen,in,1,0
+cnt_com,100.0,1,2,,LEO,LLO,,habitat,out,1,0
+cnt_com,8819.279761051013,1,2,,LEO,LLO,,oxygen,out,1,0
+cnt_com,48506.03868578057,1,2,,LEO,LLO,,hydrogen,out,1,0
+cnt_com,570.5267823385373,0,0,,LEO,LLO,,maintenance,in,4,0
+cnt_com,258.19492631367007,0,1,,LLO,LS,,maintenance,out,4,0
+cnt_com,173.1,0,1,,LLO,LS,,consumption,out,4,0
+cnt_com,1736.298153340192,0,1,,LLO,LS,,habitat,out,4,0
+cnt_com,2287.889981288198,0,1,,LLO,LS,,oxygen,out,4,0
+cnt_com,12583.394897085089,0,1,,LLO,LS,,hydrogen,out,4,0
+cnt_com,3503.891232994054,0,2,,LEO,LLO,,habitat,in,4,0
+cnt_com,5627.099881569753,0,2,,LEO,LLO,,oxygen,in,4,0
+cnt_com,30949.04934863367,0,2,,LEO,LLO,,hydrogen,in,4,0
+cnt_com,1767.5930796538623,0,2,,LLO,LS,,habitat,out,4,0
+cnt_com,561.412659615666,0,2,,LLO,LS,,oxygen,out,4,0
+cnt_com,3087.7696278861586,0,2,,LLO,LS,,hydrogen,out,4,0
+cnt_com,276.96,1,1,,LEO,LLO,,consumption,in,4,0
+cnt_com,312.33185602486714,1,2,,LLO,LLO,,maintenance,out,4,0
+cnt_com,103.85999999999999,1,2,,LLO,LLO,,consumption,out,4,0
+cnt_com,2777.7972406658882,1,2,,LLO,LLO,,oxygen,out,4,0
+cnt_com,15277.884823662424,1,2,,LLO,LLO,,hydrogen,out,4,0
+cnt_com,3503.891232994054,0,0,,LLO,LS,,habitat,in,5,0
+cnt_com,115.5632307290358,0,1,,LS,LS,,maintenance,out,5,0
+cnt_com,138.48,0,1,,LS,LS,,consumption,out,5,0
+cnt_com,764.2334395359597,0,1,,LS,LS,,oxygen,out,5,0
+cnt_com,4203.283917447778,0,1,,LS,LS,,hydrogen,out,5,0
+cnt_com,138.48,0,2,,LLO,LS,,consumption,in,5,0
+cnt_com,1503.8912329940542,0,2,,LS,LS,,habitat,out,5,0
+cnt_com,4203.283917447778,1,0,,LLO,LS,,hydrogen,in,5,0
+cnt_com,764.2334395359597,1,1,,LLO,LS,,oxygen,in,5,0
+cnt_com,115.5632307290358,1,2,,LLO,LS,,maintenance,in,5,0
+cnt_com,764.2334395359597,0,0,,LS,LS,,oxygen,in,8,0
+cnt_com,71.31584779231714,0,2,,LS,LLO,,maintenance,out,8,0
+cnt_com,34.62,0,2,,LS,LLO,,consumption,out,8,0
+cnt_com,1000.0,0,2,,LS,LLO,,sample,out,8,0
+cnt_com,764.2334395359597,0,2,,LS,LLO,,oxygen,out,8,0
+cnt_com,4203.283917447778,0,2,,LS,LLO,,hydrogen,out,8,0
+cnt_com,115.5632307290358,0,2,,LS,LS,,maintenance,in,8,0
+cnt_com,138.48,0,2,,LS,LS,,consumption,in,8,0
+cnt_com,1503.8912329940542,1,2,,LS,LS,,habitat,in,8,0
+cnt_com,4203.283917447778,1,2,,LS,LS,,hydrogen,in,8,0
+cnt_com,71.31584779231714,0,2,,LLO,LEO,,maintenance,out,9,0
+cnt_com,103.85999999999999,0,2,,LLO,LEO,,consumption,out,9,0
+cnt_com,1000.0,0,2,,LLO,LEO,,sample,out,9,0
+cnt_com,2235.02623076293,0,2,,LLO,LEO,,oxygen,out,9,0
+cnt_com,12292.644269196115,0,2,,LLO,LEO,,hydrogen,out,9,0
+cnt_com,2777.7972406658882,0,2,,LLO,LLO,,oxygen,in,9,0
+cnt_com,312.33185602486714,1,0,,LLO,LLO,,maintenance,in,9,0
+cnt_com,103.85999999999999,1,1,,LLO,LLO,,consumption,in,9,0
+cnt_com,15277.884823662424,1,1,,LLO,LLO,,hydrogen,in,9,0
+cnt_com,241.01600823254998,1,2,,LLO,LLO,,maintenance,out,9,0
+cnt_com,542.7710099029582,1,2,,LLO,LLO,,oxygen,out,9,0
+cnt_com,2985.240554466309,1,2,,LLO,LLO,,hydrogen,out,9,0
+cnt_com,1000.0,1,2,,LS,LLO,,sample,in,9,0
+cnt_com,71.31584779231714,0,0,,LEO,Earth,,maintenance,out,12,0
+cnt_com,34.62,0,0,,LEO,Earth,,consumption,out,12,0
+cnt_com,1000.0,0,0,,LEO,Earth,,sample,out,12,0
+cnt_com,71.31584779231714,0,1,,LEO,LEO,,maintenance,in,12,0
+cnt_com,1000.0,0,1,,LLO,LEO,,sample,in,12,0
+cnt_com,34.62,1,1,,LEO,LEO,,consumption,in,12,0
+cnt_com,1000.0,0,0,,LEO,Earth,,sample,in,13,0
+cnt_com,44.24738293671865,0,1,,LS,LS,,maintenance,out,13,0
+cnt_com,1503.8912329940542,0,1,,LS,LS,,habitat,out,13,0
+cnt_com,44.24738293671865,0,0,,LS,LS,,maintenance,in,16,0
+cnt_com,1503.8912329940542,0,2,,LS,LS,,habitat,in,16,0
+cnt_com,1496.1087670059458,0,1,,Earth,LEO,,habitat,out,365,0
+cnt_com,109595.47226864623,0,1,,Earth,LEO,,hydrogen,out,365,0
+cnt_com,450.05999999999995,0,2,,Earth,LEO,,consumption,out,365,0
+cnt_com,19926.449503390235,1,0,,Earth,LEO,,oxygen,out,365,0
+cnt_com,640.7727775035161,1,1,,Earth,LEO,,maintenance,out,365,0
+cnt_com,415.43999999999994,0,2,,Earth,LEO,,consumption,in,366,0
+cnt_com,109595.47226864623,0,2,,Earth,LEO,,hydrogen,in,366,0
+cnt_com,356.0443126479166,0,2,,LEO,LLO,,maintenance,out,366,0
+cnt_com,415.43999999999994,0,2,,LEO,LLO,,consumption,out,366,0
+cnt_com,1396.1087670059458,0,2,,LEO,LLO,,habitat,out,366,0
+cnt_com,2287.889981288208,0,2,,LEO,LLO,,oxygen,out,366,0
+cnt_com,12583.394897085089,0,2,,LEO,LLO,,hydrogen,out,366,0
+cnt_com,8819.279761051013,1,0,,LEO,LLO,,oxygen,out,366,0
+cnt_com,48506.03868578057,1,0,,LEO,LLO,,hydrogen,out,366,0
+cnt_com,356.0443126479166,1,1,,Earth,LEO,,maintenance,in,366,0
+cnt_com,1496.1087670059458,1,1,,Earth,LEO,,habitat,in,366,0
+cnt_com,100.0,1,1,,LEO,LLO,,habitat,out,366,0
+cnt_com,8819.279761051013,1,1,,LEO,LLO,,oxygen,out,366,0
+cnt_com,48506.03868578057,1,1,,LEO,LLO,,hydrogen,out,366,0
+cnt_com,19926.449503390235,1,2,,Earth,LEO,,oxygen,in,366,0
+cnt_com,1496.1087670059458,0,0,,LEO,LLO,,habitat,in,369,0
+cnt_com,3785.5821464946885,0,2,,LEO,LLO,,oxygen,in,369,0
+cnt_com,542.7710099029582,0,2,,LLO,LLO,,oxygen,in,369,0
+cnt_com,98.38431264791569,0,2,,LLO,LS,,maintenance,out,369,0
+cnt_com,173.1,0,2,,LLO,LS,,consumption,out,369,0
+cnt_com,1496.1087670059458,0,2,,LLO,LS,,habitat,out,369,0
+cnt_com,2040.4631751094485,0,2,,LLO,LS,,oxygen,out,369,0
+cnt_com,11222.547463101966,0,2,,LLO,LS,,hydrogen,out,369,0
+cnt_com,142.6316955846343,1,0,,LLO,LLO,,maintenance,out,369,0
+cnt_com,138.48,1,0,,LLO,LLO,,consumption,out,369,0
+cnt_com,2287.8899812881987,1,0,,LLO,LLO,,oxygen,out,369,0
+cnt_com,12583.394897085089,1,0,,LLO,LLO,,hydrogen,out,369,0
+cnt_com,241.01600823254998,1,0,,LLO,LLO,,maintenance,in,369,0
+cnt_com,311.58,1,2,,LEO,LLO,,consumption,in,369,0
+cnt_com,20820.701805720746,1,2,,LEO,LLO,,hydrogen,in,369,0
+cnt_com,2985.240554466309,1,2,,LLO,LLO,,hydrogen,in,369,0
+cnt_com,1496.1087670059458,0,1,,LLO,LS,,habitat,in,370,0
+cnt_com,773.0812729888249,0,2,,LLO,LS,,oxygen,in,370,0
+cnt_com,71.31584779231714,0,2,,LS,LS,,maintenance,out,370,0
+cnt_com,138.48,0,2,,LS,LS,,consumption,out,370,0
+cnt_com,773.0812729888249,0,2,,LS,LS,,oxygen,out,370,0
+cnt_com,4251.947001438537,0,2,,LS,LS,,hydrogen,out,370,0
+cnt_com,138.48,1,0,,LLO,LS,,consumption,in,370,0
+cnt_com,4251.947001438537,1,1,,LLO,LS,,hydrogen,in,370,0
+cnt_com,27.06846485559855,1,2,,LLO,LS,,maintenance,in,370,0
+cnt_com,71.31584779231714,0,2,,LS,LLO,,maintenance,out,373,0
+cnt_com,34.62,0,2,,LS,LLO,,consumption,out,373,0
+cnt_com,1100.0,0,2,,LS,LLO,,sample,out,373,0
+cnt_com,773.0812729888249,0,2,,LS,LLO,,oxygen,out,373,0
+cnt_com,4251.947001438537,0,2,,LS,LLO,,hydrogen,out,373,0
+cnt_com,138.48,0,2,,LS,LS,,consumption,in,373,0
+cnt_com,71.31584779231714,1,0,,LS,LS,,maintenance,in,373,0
+cnt_com,773.0812729888249,1,2,,LS,LS,,oxygen,in,373,0
+cnt_com,4251.947001438537,1,2,,LS,LS,,hydrogen,in,373,0
+cnt_com,142.6316955846343,0,2,,LLO,LEO,,maintenance,out,374,0
+cnt_com,138.48,0,2,,LLO,LEO,,consumption,out,374,0
+cnt_com,1100.0,0,2,,LLO,LEO,,sample,out,374,0
+cnt_com,2287.8899812881987,0,2,,LLO,LEO,,oxygen,out,374,0
+cnt_com,12583.394897085089,0,2,,LLO,LEO,,hydrogen,out,374,0
+cnt_com,2287.8899812881987,0,2,,LLO,LLO,,oxygen,in,374,0
+cnt_com,142.6316955846343,1,1,,LLO,LLO,,maintenance,in,374,0
+cnt_com,138.48,1,2,,LLO,LLO,,consumption,in,374,0
+cnt_com,12583.394897085089,1,2,,LLO,LLO,,hydrogen,in,374,0
+cnt_com,1100.0,1,2,,LS,LLO,,sample,in,374,0
+cnt_com,34.62,0,0,,LLO,LEO,,consumption,in,377,0
+cnt_com,1100.0,0,0,,LLO,LEO,,sample,in,377,0
+cnt_com,71.31584779231714,0,2,,LEO,Earth,,maintenance,out,377,0
+cnt_com,34.62,0,2,,LEO,Earth,,consumption,out,377,0
+cnt_com,1100.0,0,2,,LEO,Earth,,sample,out,377,0
+cnt_com,71.31584779231714,0,2,,LLO,LEO,,maintenance,in,377,0
+cnt_com,1100.0,0,0,,LEO,Earth,,sample,in,378,0
+sc_fly_ind,1.0,0,0,,Earth,LEO,,,out,0,0
+sc_fly_ind,1.0,0,1,,Earth,LEO,,,out,0,0
+sc_fly_ind,1.0,0,2,,Earth,LEO,,,out,0,0
+sc_fly_ind,1.0,1,0,,Earth,LEO,,,out,0,0
+sc_fly_ind,1.0,1,1,,Earth,LEO,,,out,0,0
+sc_fly_ind,1.0,1,2,,Earth,LEO,,,out,0,0
+sc_fly_ind,1.0,0,0,,Earth,LEO,,,in,1,0
+sc_fly_ind,1.0,0,0,,LEO,LEO,,,out,1,0
+sc_fly_ind,1.0,0,1,,Earth,LEO,,,in,1,0
+sc_fly_ind,1.0,0,1,,LEO,LLO,,,out,1,0
+sc_fly_ind,1.0,0,2,,Earth,LEO,,,in,1,0
+sc_fly_ind,1.0,0,2,,LEO,LLO,,,out,1,0
+sc_fly_ind,1.0,1,0,,Earth,LEO,,,in,1,0
+sc_fly_ind,1.0,1,0,,LEO,LLO,,,out,1,0
+sc_fly_ind,1.0,1,1,,Earth,LEO,,,in,1,0
+sc_fly_ind,1.0,1,1,,LEO,LLO,,,out,1,0
+sc_fly_ind,1.0,1,2,,Earth,LEO,,,in,1,0
+sc_fly_ind,1.0,1,2,,LEO,LLO,,,out,1,0
+sc_fly_ind,1.0,0,1,,LEO,LLO,,,in,4,0
+sc_fly_ind,1.0,0,1,,LLO,LS,,,out,4,0
+sc_fly_ind,1.0,0,2,,LEO,LLO,,,in,4,0
+sc_fly_ind,1.0,0,2,,LLO,LS,,,out,4,0
+sc_fly_ind,1.0,1,0,,LEO,LLO,,,in,4,0
+sc_fly_ind,1.0,1,1,,LEO,LLO,,,in,4,0
+sc_fly_ind,1.0,1,2,,LEO,LLO,,,in,4,0
+sc_fly_ind,1.0,1,2,,LLO,LLO,,,out,4,0
+sc_fly_ind,1.0,0,1,,LLO,LS,,,in,5,0
+sc_fly_ind,1.0,0,1,,LS,LS,,,out,5,0
+sc_fly_ind,1.0,0,2,,LLO,LS,,,in,5,0
+sc_fly_ind,1.0,0,2,,LS,LS,,,out,5,0
+sc_fly_ind,1.0,0,1,,LS,LS,,,in,8,0
+sc_fly_ind,1.0,0,2,,LS,LLO,,,out,8,0
+sc_fly_ind,1.0,0,2,,LS,LS,,,in,8,0
+sc_fly_ind,1.0,0,2,,LLO,LEO,,,out,9,0
+sc_fly_ind,1.0,0,2,,LS,LLO,,,in,9,0
+sc_fly_ind,1.0,1,2,,LLO,LLO,,,out,9,0
+sc_fly_ind,1.0,1,2,,LLO,LLO,,,in,9,0
+sc_fly_ind,1.0,0,0,,LEO,Earth,,,out,12,0
+sc_fly_ind,1.0,0,0,,LEO,LEO,,,in,12,0
+sc_fly_ind,1.0,0,2,,LEO,LEO,,,out,12,0
+sc_fly_ind,1.0,0,2,,LLO,LEO,,,in,12,0
+sc_fly_ind,1.0,0,0,,LEO,Earth,,,in,13,0
+sc_fly_ind,1.0,0,1,,LS,LS,,,out,13,0
+sc_fly_ind,1.0,0,1,,LS,LS,,,in,16,0
+sc_fly_ind,1.0,1,0,,Earth,LEO,,,out,365,0
+sc_fly_ind,1.0,1,1,,Earth,LEO,,,out,365,0
+sc_fly_ind,1.0,0,2,,LEO,LEO,,,in,366,0
+sc_fly_ind,1.0,0,2,,LEO,LLO,,,out,366,0
+sc_fly_ind,1.0,1,0,,Earth,LEO,,,in,366,0
+sc_fly_ind,1.0,1,0,,LEO,LLO,,,out,366,0
+sc_fly_ind,1.0,1,1,,Earth,LEO,,,in,366,0
+sc_fly_ind,1.0,1,1,,LEO,LLO,,,out,366,0
+sc_fly_ind,1.0,0,2,,LEO,LLO,,,in,369,0
+sc_fly_ind,1.0,0,2,,LLO,LS,,,out,369,0
+sc_fly_ind,1.0,1,0,,LEO,LLO,,,in,369,0
+sc_fly_ind,1.0,1,0,,LLO,LLO,,,out,369,0
+sc_fly_ind,1.0,1,1,,LEO,LLO,,,in,369,0
+sc_fly_ind,1.0,1,2,,LLO,LLO,,,in,369,0
+sc_fly_ind,1.0,0,2,,LLO,LS,,,in,370,0
+sc_fly_ind,1.0,0,2,,LS,LS,,,out,370,0
+sc_fly_ind,1.0,0,2,,LS,LLO,,,out,373,0
+sc_fly_ind,1.0,0,2,,LS,LS,,,in,373,0
+sc_fly_ind,1.0,0,2,,LLO,LEO,,,out,374,0
+sc_fly_ind,1.0,0,2,,LS,LLO,,,in,374,0
+sc_fly_ind,1.0,1,0,,LLO,LLO,,,in,374,0
+sc_fly_ind,1.0,0,2,,LEO,Earth,,,out,377,0
+sc_fly_ind,1.0,0,2,,LLO,LEO,,,in,377,0
+sc_fly_ind,1.0,0,2,,LEO,Earth,,,in,378,0
+sc_fly_var,2167.5930796538623,0,0,payload,Earth,LEO,,,out,0,0
+sc_fly_var,14871.284878373288,0,0,propellant,Earth,LEO,,,out,0,0
+sc_fly_var,7131.5847792317145,0,0,dry mass,Earth,LEO,,,out,0,0
+sc_fly_var,2167.5930796538623,0,1,payload,Earth,LEO,,,out,0,0
+sc_fly_var,14871.284878373288,0,1,propellant,Earth,LEO,,,out,0,0
+sc_fly_var,7131.5847792317145,0,1,dry mass,Earth,LEO,,,out,0,0
+sc_fly_var,2167.5930796538623,0,2,payload,Earth,LEO,,,out,0,0
+sc_fly_var,14871.284878373288,0,2,propellant,Earth,LEO,,,out,0,0
+sc_fly_var,7131.5847792317145,0,2,dry mass,Earth,LEO,,,out,0,0
+sc_fly_var,500.0,1,0,payload,Earth,LEO,,,out,0,0
+sc_fly_var,57325.31844683159,1,0,propellant,Earth,LEO,,,out,0,0
+sc_fly_var,14236.423242779972,1,0,dry mass,Earth,LEO,,,out,0,0
+sc_fly_var,500.0,1,1,payload,Earth,LEO,,,out,0,0
+sc_fly_var,57325.31844683159,1,1,propellant,Earth,LEO,,,out,0,0
+sc_fly_var,14236.423242779972,1,1,dry mass,Earth,LEO,,,out,0,0
+sc_fly_var,500.0,1,2,payload,Earth,LEO,,,out,0,0
+sc_fly_var,57325.31844683159,1,2,propellant,Earth,LEO,,,out,0,0
+sc_fly_var,14236.423242779972,1,2,dry mass,Earth,LEO,,,out,0,0
+sc_fly_var,2167.5930796538623,0,0,payload,Earth,LEO,,,in,1,0
+sc_fly_var,14871.284878373288,0,0,propellant,Earth,LEO,,,in,1,0
+sc_fly_var,7131.5847792317145,0,0,dry mass,Earth,LEO,,,in,1,0
+sc_fly_var,2167.5930796538623,0,0,payload,LEO,LEO,,,out,1,0
+sc_fly_var,14871.284878373288,0,0,propellant,LEO,LEO,,,out,1,0
+sc_fly_var,7131.5847792317145,0,0,dry mass,LEO,LEO,,,out,1,0
+sc_fly_var,2167.5930796538623,0,1,payload,Earth,LEO,,,in,1,0
+sc_fly_var,14871.284878373288,0,1,propellant,Earth,LEO,,,in,1,0
+sc_fly_var,7131.5847792317145,0,1,dry mass,Earth,LEO,,,in,1,0
+sc_fly_var,2167.5930796538623,0,1,payload,LEO,LLO,,,out,1,0
+sc_fly_var,14871.284878373288,0,1,propellant,LEO,LLO,,,out,1,0
+sc_fly_var,7131.5847792317145,0,1,dry mass,LEO,LLO,,,out,1,0
+sc_fly_var,2167.5930796538623,0,2,payload,Earth,LEO,,,in,1,0
+sc_fly_var,14871.284878373288,0,2,propellant,Earth,LEO,,,in,1,0
+sc_fly_var,7131.5847792317145,0,2,dry mass,Earth,LEO,,,in,1,0
+sc_fly_var,2167.5930796538623,0,2,payload,LEO,LLO,,,out,1,0
+sc_fly_var,14871.284878373288,0,2,propellant,LEO,LLO,,,out,1,0
+sc_fly_var,7131.5847792317145,0,2,dry mass,LEO,LLO,,,out,1,0
+sc_fly_var,500.0,1,0,payload,Earth,LEO,,,in,1,0
+sc_fly_var,57325.31844683159,1,0,propellant,Earth,LEO,,,in,1,0
+sc_fly_var,14236.423242779972,1,0,dry mass,Earth,LEO,,,in,1,0
+sc_fly_var,500.0,1,0,payload,LEO,LLO,,,out,1,0
+sc_fly_var,57325.31844683159,1,0,propellant,LEO,LLO,,,out,1,0
+sc_fly_var,14236.423242779972,1,0,dry mass,LEO,LLO,,,out,1,0
+sc_fly_var,500.0,1,1,payload,Earth,LEO,,,in,1,0
+sc_fly_var,57325.31844683159,1,1,propellant,Earth,LEO,,,in,1,0
+sc_fly_var,14236.423242779972,1,1,dry mass,Earth,LEO,,,in,1,0
+sc_fly_var,500.0,1,1,payload,LEO,LLO,,,out,1,0
+sc_fly_var,57325.31844683159,1,1,propellant,LEO,LLO,,,out,1,0
+sc_fly_var,14236.423242779972,1,1,dry mass,LEO,LLO,,,out,1,0
+sc_fly_var,500.0,1,2,payload,Earth,LEO,,,in,1,0
+sc_fly_var,57325.31844683159,1,2,propellant,Earth,LEO,,,in,1,0
+sc_fly_var,14236.423242779972,1,2,dry mass,Earth,LEO,,,in,1,0
+sc_fly_var,500.0,1,2,payload,LEO,LLO,,,out,1,0
+sc_fly_var,57325.31844683159,1,2,propellant,LEO,LLO,,,out,1,0
+sc_fly_var,14236.423242779972,1,2,dry mass,LEO,LLO,,,out,1,0
+sc_fly_var,2167.5930796538623,0,1,payload,LEO,LLO,,,in,4,0
+sc_fly_var,14871.284878373288,0,1,propellant,LEO,LLO,,,in,4,0
+sc_fly_var,7131.5847792317145,0,1,dry mass,LEO,LLO,,,in,4,0
+sc_fly_var,2167.5930796538623,0,1,payload,LLO,LS,,,out,4,0
+sc_fly_var,14871.284878373288,0,1,propellant,LLO,LS,,,out,4,0
+sc_fly_var,7131.5847792317145,0,1,dry mass,LLO,LS,,,out,4,0
+sc_fly_var,2167.5930796538623,0,2,payload,LEO,LLO,,,in,4,0
+sc_fly_var,14871.284878373288,0,2,propellant,LEO,LLO,,,in,4,0
+sc_fly_var,7131.5847792317145,0,2,dry mass,LEO,LLO,,,in,4,0
+sc_fly_var,2167.5930796538623,0,2,payload,LLO,LS,,,out,4,0
+sc_fly_var,14871.284878373288,0,2,propellant,LLO,LS,,,out,4,0
+sc_fly_var,7131.5847792317145,0,2,dry mass,LLO,LS,,,out,4,0
+sc_fly_var,500.0,1,0,payload,LEO,LLO,,,in,4,0
+sc_fly_var,57325.31844683159,1,0,propellant,LEO,LLO,,,in,4,0
+sc_fly_var,14236.423242779972,1,0,dry mass,LEO,LLO,,,in,4,0
+sc_fly_var,500.0,1,1,payload,LEO,LLO,,,in,4,0
+sc_fly_var,57325.31844683159,1,1,propellant,LEO,LLO,,,in,4,0
+sc_fly_var,14236.423242779972,1,1,dry mass,LEO,LLO,,,in,4,0
+sc_fly_var,500.0,1,2,payload,LEO,LLO,,,in,4,0
+sc_fly_var,57325.31844683159,1,2,propellant,LEO,LLO,,,in,4,0
+sc_fly_var,14236.423242779972,1,2,dry mass,LEO,LLO,,,in,4,0
+sc_fly_var,500.0,1,2,payload,LLO,LLO,,,out,4,0
+sc_fly_var,57325.31844683159,1,2,propellant,LLO,LLO,,,out,4,0
+sc_fly_var,14236.423242779972,1,2,dry mass,LLO,LLO,,,out,4,0
+sc_fly_var,2167.5930796538623,0,1,payload,LLO,LS,,,in,5,0
+sc_fly_var,14871.284878373288,0,1,propellant,LLO,LS,,,in,5,0
+sc_fly_var,7131.5847792317145,0,1,dry mass,LLO,LS,,,in,5,0
+sc_fly_var,2167.5930796538623,0,1,payload,LS,LS,,,out,5,0
+sc_fly_var,14871.284878373288,0,1,propellant,LS,LS,,,out,5,0
+sc_fly_var,7131.5847792317145,0,1,dry mass,LS,LS,,,out,5,0
+sc_fly_var,2167.5930796538623,0,2,payload,LLO,LS,,,in,5,0
+sc_fly_var,14871.284878373288,0,2,propellant,LLO,LS,,,in,5,0
+sc_fly_var,7131.5847792317145,0,2,dry mass,LLO,LS,,,in,5,0
+sc_fly_var,2167.5930796538623,0,2,payload,LS,LS,,,out,5,0
+sc_fly_var,14871.284878373288,0,2,propellant,LS,LS,,,out,5,0
+sc_fly_var,7131.5847792317145,0,2,dry mass,LS,LS,,,out,5,0
+sc_fly_var,2167.5930796538623,0,1,payload,LS,LS,,,in,8,0
+sc_fly_var,14871.284878373288,0,1,propellant,LS,LS,,,in,8,0
+sc_fly_var,7131.5847792317145,0,1,dry mass,LS,LS,,,in,8,0
+sc_fly_var,2167.5930796538623,0,2,payload,LS,LLO,,,out,8,0
+sc_fly_var,14871.284878373288,0,2,propellant,LS,LLO,,,out,8,0
+sc_fly_var,7131.5847792317145,0,2,dry mass,LS,LLO,,,out,8,0
+sc_fly_var,2167.5930796538623,0,2,payload,LS,LS,,,in,8,0
+sc_fly_var,14871.284878373288,0,2,propellant,LS,LS,,,in,8,0
+sc_fly_var,7131.5847792317145,0,2,dry mass,LS,LS,,,in,8,0
+sc_fly_var,2167.5930796538623,0,2,payload,LLO,LEO,,,out,9,0
+sc_fly_var,14871.284878373288,0,2,propellant,LLO,LEO,,,out,9,0
+sc_fly_var,7131.5847792317145,0,2,dry mass,LLO,LEO,,,out,9,0
+sc_fly_var,2167.5930796538623,0,2,payload,LS,LLO,,,in,9,0
+sc_fly_var,14871.284878373288,0,2,propellant,LS,LLO,,,in,9,0
+sc_fly_var,7131.5847792317145,0,2,dry mass,LS,LLO,,,in,9,0
+sc_fly_var,500.0,1,2,payload,LLO,LLO,,,out,9,0
+sc_fly_var,57325.31844683159,1,2,propellant,LLO,LLO,,,out,9,0
+sc_fly_var,14236.423242779972,1,2,dry mass,LLO,LLO,,,out,9,0
+sc_fly_var,500.0,1,2,payload,LLO,LLO,,,in,9,0
+sc_fly_var,57325.31844683159,1,2,propellant,LLO,LLO,,,in,9,0
+sc_fly_var,14236.423242779972,1,2,dry mass,LLO,LLO,,,in,9,0
+sc_fly_var,2167.5930796538623,0,0,payload,LEO,Earth,,,out,12,0
+sc_fly_var,14871.284878373288,0,0,propellant,LEO,Earth,,,out,12,0
+sc_fly_var,7131.5847792317145,0,0,dry mass,LEO,Earth,,,out,12,0
+sc_fly_var,2167.5930796538623,0,0,payload,LEO,LEO,,,in,12,0
+sc_fly_var,14871.284878373288,0,0,propellant,LEO,LEO,,,in,12,0
+sc_fly_var,7131.5847792317145,0,0,dry mass,LEO,LEO,,,in,12,0
+sc_fly_var,2167.5930796538623,0,2,payload,LEO,LEO,,,out,12,0
+sc_fly_var,14871.284878373288,0,2,propellant,LEO,LEO,,,out,12,0
+sc_fly_var,7131.5847792317145,0,2,dry mass,LEO,LEO,,,out,12,0
+sc_fly_var,2167.5930796538623,0,2,payload,LLO,LEO,,,in,12,0
+sc_fly_var,14871.284878373288,0,2,propellant,LLO,LEO,,,in,12,0
+sc_fly_var,7131.5847792317145,0,2,dry mass,LLO,LEO,,,in,12,0
+sc_fly_var,2167.5930796538623,0,0,payload,LEO,Earth,,,in,13,0
+sc_fly_var,14871.284878373288,0,0,propellant,LEO,Earth,,,in,13,0
+sc_fly_var,7131.5847792317145,0,0,dry mass,LEO,Earth,,,in,13,0
+sc_fly_var,2167.5930796538623,0,1,payload,LS,LS,,,out,13,0
+sc_fly_var,14871.284878373288,0,1,propellant,LS,LS,,,out,13,0
+sc_fly_var,7131.5847792317145,0,1,dry mass,LS,LS,,,out,13,0
+sc_fly_var,2167.5930796538623,0,1,payload,LS,LS,,,in,16,0
+sc_fly_var,14871.284878373288,0,1,propellant,LS,LS,,,in,16,0
+sc_fly_var,7131.5847792317145,0,1,dry mass,LS,LS,,,in,16,0
+sc_fly_var,500.0,1,0,payload,Earth,LEO,,,out,365,0
+sc_fly_var,57325.31844683159,1,0,propellant,Earth,LEO,,,out,365,0
+sc_fly_var,14236.423242779972,1,0,dry mass,Earth,LEO,,,out,365,0
+sc_fly_var,500.0,1,1,payload,Earth,LEO,,,out,365,0
+sc_fly_var,57325.31844683159,1,1,propellant,Earth,LEO,,,out,365,0
+sc_fly_var,14236.423242779972,1,1,dry mass,Earth,LEO,,,out,365,0
+sc_fly_var,2167.5930796538623,0,2,payload,LEO,LEO,,,in,366,0
+sc_fly_var,14871.284878373288,0,2,propellant,LEO,LEO,,,in,366,0
+sc_fly_var,7131.5847792317145,0,2,dry mass,LEO,LEO,,,in,366,0
+sc_fly_var,2167.5930796538623,0,2,payload,LEO,LLO,,,out,366,0
+sc_fly_var,14871.284878373286,0,2,propellant,LEO,LLO,,,out,366,0
+sc_fly_var,7131.5847792317145,0,2,dry mass,LEO,LLO,,,out,366,0
+sc_fly_var,500.0,1,0,payload,Earth,LEO,,,in,366,0
+sc_fly_var,57325.31844683159,1,0,propellant,Earth,LEO,,,in,366,0
+sc_fly_var,14236.423242779972,1,0,dry mass,Earth,LEO,,,in,366,0
+sc_fly_var,500.0,1,0,payload,LEO,LLO,,,out,366,0
+sc_fly_var,57325.31844683159,1,0,propellant,LEO,LLO,,,out,366,0
+sc_fly_var,14236.423242779972,1,0,dry mass,LEO,LLO,,,out,366,0
+sc_fly_var,500.0,1,1,payload,Earth,LEO,,,in,366,0
+sc_fly_var,57325.31844683159,1,1,propellant,Earth,LEO,,,in,366,0
+sc_fly_var,14236.423242779972,1,1,dry mass,Earth,LEO,,,in,366,0
+sc_fly_var,500.0,1,1,payload,LEO,LLO,,,out,366,0
+sc_fly_var,57325.31844683159,1,1,propellant,LEO,LLO,,,out,366,0
+sc_fly_var,14236.423242779972,1,1,dry mass,LEO,LLO,,,out,366,0
+sc_fly_var,2167.5930796538623,0,2,payload,LEO,LLO,,,in,369,0
+sc_fly_var,14871.284878373288,0,2,propellant,LEO,LLO,,,in,369,0
+sc_fly_var,7131.5847792317145,0,2,dry mass,LEO,LLO,,,in,369,0
+sc_fly_var,2167.5930796538623,0,2,payload,LLO,LS,,,out,369,0
+sc_fly_var,14871.284878373288,0,2,propellant,LLO,LS,,,out,369,0
+sc_fly_var,7131.5847792317145,0,2,dry mass,LLO,LS,,,out,369,0
+sc_fly_var,500.0,1,0,payload,LEO,LLO,,,in,369,0
+sc_fly_var,57325.31844683159,1,0,propellant,LEO,LLO,,,in,369,0
+sc_fly_var,14236.423242779972,1,0,dry mass,LEO,LLO,,,in,369,0
+sc_fly_var,500.0,1,0,payload,LLO,LLO,,,out,369,0
+sc_fly_var,57325.31844683159,1,0,propellant,LLO,LLO,,,out,369,0
+sc_fly_var,14236.423242779972,1,0,dry mass,LLO,LLO,,,out,369,0
+sc_fly_var,500.0,1,1,payload,LEO,LLO,,,in,369,0
+sc_fly_var,57325.31844683159,1,1,propellant,LEO,LLO,,,in,369,0
+sc_fly_var,14236.423242779972,1,1,dry mass,LEO,LLO,,,in,369,0
+sc_fly_var,500.0,1,2,payload,LLO,LLO,,,in,369,0
+sc_fly_var,57325.31844683159,1,2,propellant,LLO,LLO,,,in,369,0
+sc_fly_var,14236.423242779972,1,2,dry mass,LLO,LLO,,,in,369,0
+sc_fly_var,2167.5930796538623,0,2,payload,LLO,LS,,,in,370,0
+sc_fly_var,14871.284878373288,0,2,propellant,LLO,LS,,,in,370,0
+sc_fly_var,7131.5847792317145,0,2,dry mass,LLO,LS,,,in,370,0
+sc_fly_var,2167.5930796538623,0,2,payload,LS,LS,,,out,370,0
+sc_fly_var,14871.284878373288,0,2,propellant,LS,LS,,,out,370,0
+sc_fly_var,7131.5847792317145,0,2,dry mass,LS,LS,,,out,370,0
+sc_fly_var,2167.5930796538623,0,2,payload,LS,LLO,,,out,373,0
+sc_fly_var,14871.284878373288,0,2,propellant,LS,LLO,,,out,373,0
+sc_fly_var,7131.5847792317145,0,2,dry mass,LS,LLO,,,out,373,0
+sc_fly_var,2167.5930796538623,0,2,payload,LS,LS,,,in,373,0
+sc_fly_var,14871.284878373288,0,2,propellant,LS,LS,,,in,373,0
+sc_fly_var,7131.5847792317145,0,2,dry mass,LS,LS,,,in,373,0
+sc_fly_var,2167.5930796538623,0,2,payload,LLO,LEO,,,out,374,0
+sc_fly_var,14871.284878373286,0,2,propellant,LLO,LEO,,,out,374,0
+sc_fly_var,7131.5847792317145,0,2,dry mass,LLO,LEO,,,out,374,0
+sc_fly_var,2167.5930796538623,0,2,payload,LS,LLO,,,in,374,0
+sc_fly_var,14871.284878373288,0,2,propellant,LS,LLO,,,in,374,0
+sc_fly_var,7131.5847792317145,0,2,dry mass,LS,LLO,,,in,374,0
+sc_fly_var,500.0,1,0,payload,LLO,LLO,,,in,374,0
+sc_fly_var,57325.31844683159,1,0,propellant,LLO,LLO,,,in,374,0
+sc_fly_var,14236.423242779972,1,0,dry mass,LLO,LLO,,,in,374,0
+sc_fly_var,2167.5930796538623,0,2,payload,LEO,Earth,,,out,377,0
+sc_fly_var,14871.284878373288,0,2,propellant,LEO,Earth,,,out,377,0
+sc_fly_var,7131.5847792317145,0,2,dry mass,LEO,Earth,,,out,377,0
+sc_fly_var,2167.5930796538623,0,2,payload,LLO,LEO,,,in,377,0
+sc_fly_var,14871.284878373288,0,2,propellant,LLO,LEO,,,in,377,0
+sc_fly_var,7131.5847792317145,0,2,dry mass,LLO,LEO,,,in,377,0
+sc_fly_var,2167.5930796538623,0,2,payload,LEO,Earth,,,in,378,0
+sc_fly_var,14871.284878373288,0,2,propellant,LEO,Earth,,,in,378,0
+sc_fly_var,7131.5847792317145,0,2,dry mass,LEO,Earth,,,in,378,0
+pl_cap,2167.5930796538623,0,,,,,,,,,
+pl_cap,500.0,1,,,,,,,,,
+prop_cap,14871.284878373288,0,,,,,,,,,
+prop_cap,57325.31844683159,1,,,,,,,,,
+dry_mass,7131.5847792317145,0,,,,,,,,,
+dry_mass,14236.423242779972,1,,,,,,,,,
+imleo,433010.81746203545,,,,,,,,,,
