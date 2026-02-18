@@ -15,8 +15,8 @@ To build the environment and use the code in this repository, you will need to h
 With `conda`, run:
 
 ```sh
-conda create -n alc python=3.11.2
-conda activate alc
+conda create -n slpy python=3.11.2
+conda activate slpy
 poetry install
 ```
 
