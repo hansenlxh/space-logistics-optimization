@@ -48,6 +48,16 @@ pytest -m legacy
 
 This version is unsupported on other platforms.
 
+# Quick Start
+
+1. (When using it for the first time) Set up the ``slpy`` environment by installing the packages.
+2. Execute ``src/run.py`` in the ``slpy`` environment (after changing any parameters in it as needed).
+3. Check the output .csv file in the `data/opt_results` for results.
+
+```sh
+conda activate slpy
+python src/run.py
+```
 # Acknowledgment
 
 This material is based upon work supported by the National Science Foundation under Award No. 1942559.
